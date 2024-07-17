@@ -1,0 +1,128 @@
+.project{
+    border-radius: 10px;
+    color: #020622;
+    box-sizing: border-box;
+    padding: 48px 24px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    
+
+    &-img-1{
+        width: 450px;
+        transform: translateY(-100%);
+        top: 0;
+        right: -20px;
+        position: absolute;
+        transition: transform 0.8s ease;
+    }
+
+    &-img-2{
+        width: 300px;
+        transform: translateX(100%);
+        top: 0;
+        right: 0;
+        position: absolute;
+        transition: transform 0.8s ease;
+    }
+
+    &-img-3{
+        width: 190px;
+        transform: translateY(-100%);
+        top: 0;
+        right: 10px;
+        position: absolute;
+        transition: transform 0.8s ease;
+    }
+
+    &-img-4{
+        height: 350px;
+        transform: translateX(-100%);
+        top: 100px;
+        left:0;
+        position: absolute;
+        transition: transform 0.8s ease;
+    }
+
+    &:hover{
+        .techno{
+            transform: translateX(0);
+        }
+
+        .project-img-1{
+            transform: translateY(-50%);
+        }
+
+        .project-img-2{
+            transform: translateX(20%);
+        }
+
+        .project-img-3{
+            transform: translateY(0);
+        }
+
+        .project-img-4{
+            transform: translateX(-35%);
+        }
+    }
+ 
+    &-techno{
+        margin-bottom: 78px;
+        height: 60%;
+        display: flex;
+    }
+
+    &-down{
+        vertical-align: bottom;
+    }
+
+    &-date{
+        margin: 0;
+    }
+    
+    span{
+        margin-right: 5px;
+    }
+
+    h3{
+        margin: 0;
+        font-family: $font-poppins;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    
+
+    .techno{
+        max-height: 32px;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 500px;
+        width: 75px;
+        padding: 10px;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        transition: transform 0.8s ease;
+
+        &-0{
+            background-color: #EE4D97;
+            z-index: 3;
+        }
+    
+        &-1{
+            background-color: #403DFC;
+            transform:translateX(-90%);
+            z-index: 2;
+        }
+    
+        &-2{
+            background-color: #48E34B;
+            transform:translateX(-180%);
+        }
+
+        
+    }
+
+   
+}

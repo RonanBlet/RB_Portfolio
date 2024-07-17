@@ -1,0 +1,25 @@
+.contact-info{
+    background-color: #020622;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 64px;
+    width: 35%;
+    color: #FFFFFF;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h3{
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-weight: 400;
+    }
+
+    .info-icon{
+        margin-right: 25px;
+    }
+}

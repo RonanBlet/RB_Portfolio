@@ -1,0 +1,76 @@
+.form{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 64px;
+    border-radius: 10px;
+    flex: 1;
+    
+    &-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    &-group{
+        display: flex;
+        flex-direction: column;
+        border-bottom: black solid 1px;
+        padding-bottom: 15px;
+    }
+
+    label{
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    input{
+        border: none;
+       
+    }
+
+    .full-width{
+        grid-column: span 2;
+    }
+
+    .bouton-rose{
+        position: relative;
+        margin-top: 78px;
+        color: #F9F9F9;
+        font-weight: 500;
+        padding: 25px 50px;
+        border-radius: 40px;
+        border: none;
+        background: radial-gradient(65.62% 143.51% at 70.47% 80.29%, #EE4D97 0%, #FFCCE3 100%);
+        position: relative;
+        overflow: hidden;
+        background-size: 200%;
+         background-position: center;
+        transition: background-position 0.5s ease;
+        cursor: pointer;
+        
+        &-fleche{
+            left: 0;
+            translate: (-100% 0);
+            position: absolute;
+            transition: left 0.5s ease;
+        }
+
+        &:hover {
+            background-position: right;
+            
+
+            .bouton-rose-fleche{
+                left: 18%;
+
+            }
+        }
+    
+        
+
+
+
+    }
+
+    
+}

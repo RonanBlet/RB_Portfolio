@@ -1,0 +1,119 @@
+.landing{
+    
+    h1{
+        color: #080D12;
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 75px;
+
+        .fullstack{
+            background: radial-gradient(87.87% 208.03% at 12.05% 47%, #EE4D97 0%, #FFCCE3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+    }
+    
+
+    h1,h2{
+        font-family: $font-poppins;
+        font-size: 45px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .marge{
+        margin-bottom: 64px;
+    }
+
+    .highlight{
+        transition: opacity 0.5s ease;
+        opacity: 1;
+    }
+    
+    .services{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .project-section{
+        margin-bottom: 128px;
+        h2{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 64px;
+        }
+    }
+
+    .project-list{
+        width: 100%;
+        display: flex;
+        height: 696px;
+
+        &-left{
+            width: 65%;
+            margin-right: 10px;
+        }
+
+        &-right{
+            flex: 1;
+            height: 100%;
+
+            .project{
+                height: 100%;
+            }
+        }
+
+        &-rond{
+            margin-top: 10px;
+            display: flex;
+        }
+    }
+
+    .rond-projet{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: radial-gradient(87.87% 208.03% at 12.05% 47%, #EE4D97 0%, #FFCCE3 100%);
+        transition: width 1s ease, height 1s ease, margin 1s ease;
+
+        &:hover{
+            width: 270px;
+            height: 270px;
+            margin: 15px;
+        }
+        
+        &-droite{
+            flex: 1;
+            margin-left: 10px;
+        }
+
+        &-text{
+            font-family: $font-poppins;
+        }
+    }
+
+    .contact{
+        margin-bottom: 64px;
+
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .div-contact{
+        display: flex;
+        width: 100%;
+    }
+
+}
