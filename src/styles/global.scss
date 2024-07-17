@@ -12,6 +12,17 @@ body {
     font-family: $font-inter;
     display: flex;
     justify-content: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.menu-body{
+    overflow: hidden;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
 }
 
 .content{
@@ -59,6 +70,7 @@ body {
     top: 0;
     bottom: 0;
     width: 1px;
-    background-color: grey;
-    opacity: 0.5;
+    background-color: #020622;
+    opacity: 0.1;
+    
   }

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Apropos(){
     return(
-        <section className="Apropos">
+        <section className="Apropos" id='apropos'>
             <h3>A Propos</h3>
             <p>Hello! I'm Thibault Walterspieler, a freelance fullstack engineer 
             based in Lyon (France), boasting over 5 years of hands-on experience 

@@ -38,6 +38,10 @@
         justify-content: space-between;
     }
 
+    .project-div{
+        position: relative;
+    }
+
     .project-section{
         margin-bottom: 128px;
         h2{
@@ -50,11 +54,21 @@
     .project-list{
         width: 100%;
         display: flex;
-        height: 696px;
+        height: 648px;
+        position: relative;
+
+        transition: transform 1s ease;
+
+    &-offScreen{
+        transform: translateX(-150%);
+    }
 
         &-left{
             width: 65%;
             margin-right: 10px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
 
         &-right{
