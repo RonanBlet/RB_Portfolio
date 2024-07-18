@@ -16,7 +16,7 @@ function Holder(){
             <div className="holder-down">
                 <p>Freelance Développeur Fullstack<br></br>
                 Basé sur Dijon</p>
-                <div className="dispo"><span className='holder-green-dot'></span>Disponible en Juin</div>
+                <div className="dispo"><span className='holder-green-dot'></span>Disponible</div>
                 <span className="bouton-dispo">
                     <a href='#service'>
                         <img src={next} alt='fleche'/>

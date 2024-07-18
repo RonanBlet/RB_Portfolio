@@ -38,7 +38,7 @@ $transition-ease: ease;
     padding-right: 20px;
     padding-bottom: 0;
     overflow: hidden;
-    transition: max-height 0.8s ease;
+    transition: max-height 0.8s ease,padding 0.5s ease;
 
       .collapse-text{
         transition: opacity 0.5s ease;
@@ -50,6 +50,7 @@ $transition-ease: ease;
 
   .open {
     max-height: 250px; 
+    padding-bottom: 10px;
     display: block;
 
     .collapse-text{
@@ -110,4 +111,21 @@ $transition-ease: ease;
     }          
   }
   
+}
+
+@media(max-width : 768px){
+  .collapse{
+    &-button{
+      padding: 15px 10px;
+    }
+  }
+  
+}
+
+@media(max-width : 425px){
+  .collapse{
+    &-button{
+      padding: 7px 5px;
+    }
+  }
 }

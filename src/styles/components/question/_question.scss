@@ -3,12 +3,12 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-
     width: 100%;
     background-image: url(../../../images/font_etoile.png);
     box-sizing: border-box;
     padding: 100px 187px;
     margin-bottom: 128px;
+    gap: 24px;
     
     h3{
         color:#F9F9F9;
@@ -16,7 +16,6 @@
         font-weight: 500;
         font-family: $font-poppins;
         margin: 0;
-        margin-bottom: 48px;
         text-align: center;
     }
     
@@ -33,4 +32,16 @@
         z-index: 1;
     }
     
+}
+
+@media(max-width : 768px){
+    .question{
+        padding: 50px 90px;
+    }
+}
+
+@media(max-width : 425px){
+    .question{
+        padding: 25px 45px;
+    }
 }

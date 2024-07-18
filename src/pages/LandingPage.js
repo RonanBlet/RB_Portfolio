@@ -21,6 +21,7 @@ function LandingPage(){
             <section id='service'>
                 <h2 className='marge'>Mes Services</h2>
                 <div className='services'>
+                    <div className='services-left'>
                     <Service 
                     backgroundColor='1'
                     text='Site vitrine, corporate, évènementiel, e-commerce, intranet, application mobile' 
@@ -33,12 +34,15 @@ function LandingPage(){
                     img={ico_int} 
                     titre='Intégration Web'
                     />
+                    </div>
+                    <div className='services-right'>
                     <Service 
                     backgroundColor='3'
                     text='Compatible tous supports, tablette & application mobile.' 
                     img={ico_resp}
                     titre='Responsive design'
                     />
+                    </div>
                 </div>
             </section>
             <Apropos />
@@ -46,7 +50,7 @@ function LandingPage(){
             <Question />
             <section className='contact' id='contact'>
                 <h2 className='marge'>Contact</h2>
-                <div className='div-contact'>
+                <div className='contact-div'>
                     <ContactInfo />
                     <ContactForm />
                 </div>

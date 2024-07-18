@@ -41,7 +41,7 @@ function Header({version}){
             {version && <p>Hey, je suis Ronan Blet</p>}
             {!version && <h1>A Propos</h1>}
             <div class="menu-icon">
-                <input class="menu-icon__cheeckbox" type="checkbox" onClick={openMenu}/>
+                <input className="menu-icon__cheeckbox" type="checkbox" onClick={openMenu}/>
                 <div>
                     <span></span>
                     <span></span>
