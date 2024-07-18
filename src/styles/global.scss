@@ -29,6 +29,7 @@ h1,h2,h3,p{
     width: 80%;
     margin: 0 auto;
     max-width: 1440px;
+    overflow-x: hidden;
 }
 
 
@@ -74,3 +75,13 @@ h1,h2,h3,p{
     opacity: 0.1;
     
   }
+
+@media(max-width : 425px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .content{
+        width: 100%;
+    }
+}

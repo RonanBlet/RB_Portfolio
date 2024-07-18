@@ -236,6 +236,7 @@
 
 @media(max-width : 425px){
     .project-section{
+        margin-bottom: 64px;
         .rond-projet{
             display: none;
 
@@ -246,6 +247,8 @@
     }
 
     .project{
+        width: 90%;
+        margin-left: 5%;
         padding: 24px 24px;
     }
 }

@@ -227,7 +227,7 @@ header{
             height: 0;
             background-color: #020622;
             transition: height 0.3s ease;
-            z-index: 10;
+            z-index: 9;
         }
 
         &-active{
@@ -235,4 +235,36 @@ header{
         }
     }
     
+}
+
+@media(max-width: 425px){
+    header{
+        width: 90%;
+        margin: 32px 0 0 5%;
+        .svg-icon{
+            scale: 0.8;
+        }
+        
+        .menu-icon{
+            width: 35px;
+            height: 35px;
+        }
+
+        .menu-open{
+            a{
+                font-size: 32px;
+
+                &:hover{
+                    .menu-open-slash{
+                        left: -15px;
+                    }
+                }
+            }
+
+            &-slash{
+                font-size: 20px;
+                top: 10px;
+            }
+        }
+    }
 }

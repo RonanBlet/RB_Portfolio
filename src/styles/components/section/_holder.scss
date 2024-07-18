@@ -87,3 +87,10 @@
     }
 
 }
+
+@media(max-width : 425px){
+    .holder{
+        border-radius: 0;
+        margin-bottom: 64px;
+    }
+}

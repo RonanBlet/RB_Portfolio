@@ -151,9 +151,21 @@
 }
 
 @media(max-width : 425px){
+    .contact{
+        margin-bottom: 0;
+    }
+
+    .contact-div{
+        flex-direction: column-reverse;
+    }
+
+    .contact-info{
+        border-radius: 0;
+    }
+
     .form{
    
-
+        border-radius: 0;
         &-grid{
             display: flex;
             flex-direction: column;

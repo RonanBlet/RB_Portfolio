@@ -44,6 +44,7 @@
     }
 
     &-right{
+        display: flex;
         width: 33%;
     }
 }
@@ -71,10 +72,33 @@
     }
 }
 
+@media(max-width : 1024px){
+    .card{
+        padding: 34px 24px;
+    }
+}
+
 @media(max-width : 425px){
+    .card{
+        width: 90%;
+        margin-left: 5%;
+    }
+
     .services{
+        
         &-left{
             flex-direction: column;
+        }
+
+        &-right{
+            display: block;
+        }
+
+    }
+
+    #service{
+        h2{
+            text-align: center;
         }
     }
 

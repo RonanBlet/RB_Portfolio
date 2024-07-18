@@ -36,12 +36,14 @@
 
 @media(max-width : 768px){
     .question{
-        padding: 50px 90px;
+        padding: 48px 64px;
     }
 }
 
 @media(max-width : 425px){
     .question{
-        padding: 25px 45px;
+        padding: 25px 16px;
+        border-radius: 0;
+        margin-bottom: 64px;
     }
 }

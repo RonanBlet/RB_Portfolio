@@ -44,3 +44,37 @@
     }
 }
 
+@media(max-width : 768px){
+    .about{
+        flex-direction: column-reverse;
+        gap: 10px;
+        &-right{
+            padding: 24px;
+        }
+
+        &-left{
+            width: 100%;
+        
+        }
+
+    }
+}
+
+@media(max-width : 425px){
+    .about{
+        flex-direction: column-reverse;
+        &-right{
+            padding: 24px;
+        }
+
+        &-left{
+            width: 100%;
+        
+        }
+
+        img{
+            border-radius: 0;
+        }
+    }
+}
+
