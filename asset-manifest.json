@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/RB_Portfolio/static/css/main.8d3a6381.css",
+    "main.js": "/RB_Portfolio/static/js/main.7bb8fa7e.js",
+    "static/js/453.1407b060.chunk.js": "/RB_Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/kasa_portfolio2.PNG": "/RB_Portfolio/static/media/kasa_portfolio2.ca8c6a404efd930deaf2.PNG",
+    "static/media/Gustave.jpg": "/RB_Portfolio/static/media/Gustave.e0c2a08e9be675b22cbb.jpg",
+    "static/media/iaphoto.svg": "/RB_Portfolio/static/media/iaphoto.e616c792e960dc12cec503fc5fb9a386.svg",
+    "static/media/bookie_portfolio.PNG": "/RB_Portfolio/static/media/bookie_portfolio.9f3565e22bccf4d637d4.PNG",
+    "static/media/kasa_portfolio.PNG": "/RB_Portfolio/static/media/kasa_portfolio.5986fee0269926c0a412.PNG",
+    "static/media/notionFront.PNG": "/RB_Portfolio/static/media/notionFront.7e62eeca47f20e8fb027.PNG",
+    "static/media/font_etoile.png": "/RB_Portfolio/static/media/font_etoile.d83b9200725ccc02d15a.png",
+    "static/media/ico_web.svg": "/RB_Portfolio/static/media/ico_web.fd51a454e148950be845b26d76083d52.svg",
+    "static/media/logo.svg": "/RB_Portfolio/static/media/logo.003cdec8d4c2d9040797e6946fed0e0c.svg",
+    "index.html": "/RB_Portfolio/index.html",
+    "static/media/next.svg": "/RB_Portfolio/static/media/next.1ea99effcb5fc94751958f94c95e1984.svg",
+    "static/media/ico_int.svg": "/RB_Portfolio/static/media/ico_int.9eb4948a6a623283bdbfdafa4fac1b8a.svg",
+    "static/media/ico_resp.svg": "/RB_Portfolio/static/media/ico_resp.c63a9fcfb5c8c465dfc4746f0172b68c.svg",
+    "main.8d3a6381.css.map": "/RB_Portfolio/static/css/main.8d3a6381.css.map",
+    "main.7bb8fa7e.js.map": "/RB_Portfolio/static/js/main.7bb8fa7e.js.map",
+    "453.1407b060.chunk.js.map": "/RB_Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d3a6381.css",
+    "static/js/main.7bb8fa7e.js"
+  ]
+}
