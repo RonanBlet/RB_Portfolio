@@ -1,6 +1,6 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCalendar} from '@fortawesome/free-solid-svg-icons';
-import imgKasa from '../images/kasa_portfolio2.PNG';
+import {faCalendarDays} from '@fortawesome/free-solid-svg-icons';
+import imgKasa from '../../images/kasa_portfolio2.PNG';
 
 
 function Project({technos, date, titre, text, color, version,imgProjet,onClick}){
@@ -27,7 +27,7 @@ function Project({technos, date, titre, text, color, version,imgProjet,onClick})
             </div>
             <div className='project-down'>
                 <p className='project-date'>
-                    <span><FontAwesomeIcon icon={faCalendar}/></span>
+                    <span><FontAwesomeIcon icon={faCalendarDays}/></span>
                     {date}
                     </p>
                 <h3>{titre}</h3>

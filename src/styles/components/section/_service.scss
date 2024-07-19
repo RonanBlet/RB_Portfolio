@@ -53,8 +53,12 @@
 
     .card{
         gap: 12px;
-        width: 100%;
         padding: 30px 24px;
+
+        &:hover{
+            transform: none;
+            transition: none;
+        }
     }
 
     .services{
@@ -67,7 +71,11 @@
         }
 
         &-right{
-            width: 100%;
+           width: 50%;
+           margin-left: 25%;
+            .card{
+                height: 262px;
+            }
         }
     }
 }
@@ -92,6 +100,11 @@
 
         &-right{
             display: block;
+            width: 100%;
+            margin-left: 0;
+            .card{
+                height: 100%;
+            }
         }
 
     }

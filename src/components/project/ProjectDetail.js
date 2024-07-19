@@ -1,5 +1,5 @@
-import imgNotion from '../images/notionFront.PNG'
-import next from '../images/next.svg'
+import imgNotion from '../../images/notionFront.PNG'
+import next from '../../images/next.svg'
 
 
 function ProjectDetail({titre,onScreen, back, version, id}){

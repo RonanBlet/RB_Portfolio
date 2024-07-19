@@ -8,7 +8,7 @@ html{
 
 body {
     background-color: #F3F8FF;
-    color: #020622;
+    color: $color-black;
     font-family: $font-inter;
     display: flex;
     justify-content: center;
@@ -25,6 +25,14 @@ h1,h2,h3,p{
     padding: 0;
 }
 
+h1,h2,h3{
+    font-family: $font-poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
 .content{
     width: 80%;
     margin: 0 auto;
@@ -32,29 +40,6 @@ h1,h2,h3,p{
     overflow-x: hidden;
 }
 
-
-.bouton-rose{
-
-    color: #F9F9F9;
-    font-weight: 500;
-    padding: 25px 50px;
-    border-radius: 40px;
-    border: none;
-    background: radial-gradient(65.62% 143.51% at 70.47% 80.29%, #EE4D97 0%, #FFCCE3 100%);
-    position: relative;
-    overflow: hidden;
-    background-size: 200%;
-     background-position: center;
-    transition: background-position 1s ease;
-    cursor: pointer;
-    
-
-    &:hover {
-        background-position: right;
-      }
-
-    
-}
 
 .background-lines {
     position: fixed;
@@ -71,7 +56,7 @@ h1,h2,h3,p{
     top: 0;
     bottom: 0;
     width: 1px;
-    background-color: #020622;
+    background-color: $color-black;
     opacity: 0.1;
     
   }

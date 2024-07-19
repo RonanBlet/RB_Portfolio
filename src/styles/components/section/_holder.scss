@@ -1,81 +1,103 @@
+@import '../../variables';
+
 .holder{
     position: relative;
     border-radius: 10px;
     height: 463px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 61px 10%;
     width: 100%;
     margin-bottom: 128px;
     margin-top: 64px;
-    background-image: url(../../../images/font_etoile.png);
+    background-color: black;
+    //background-image: url(../../../images/font_etoile.png);
     
-    /*&::before{
+    &::before{
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: #020622;
+        background: $color-black;
         mix-blend-mode: screen;
         pointer-events: none;
         z-index: 1;
-    }*/
+    }
+
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;          
+    }
 
     &-up{
        
         height: 80%;
-    }
-
-    &-up-iframe{position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        pointer-events: none;
-        border: none;
-        border-radius: 10px;
+        
     }
 
     &-down{
         position: absolute;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 90%;
-        margin-left: 5%;
-        color: #F9F9F9;
+        width: 80%;
 
-        p{
-            font-size: 14px;
-            font-weight: 300;
-            font-family: Inter;
-            width: 30%;
-        }
+        &-left{
 
-        .dispo{
-            display: flex;
-            align-items: center;
-            border: 1px solid #F9F9F9;
-            border-radius: 50px;
-            gap: 10px;
-            padding: 20px 25px 20px 25px;
-            text-align: center;
-            font-weight: 500;
-            transition: background-color 0.5s ease, color 0.5s ease;
+            width: 33%;
 
-            &:hover{
-                background-color: #F9F9F9;
-                color: #020622;
+            p{
+                font-size: 14px;
+                font-weight: 300;
+                color: #F9F9F9;
             }
+
         }
 
-        
+        &-right{
 
-        .bouton-dispo{
-            width: 30%;
-            text-align: right;
-            img{scale: 0.9;}
-        }
+            width: 66%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
+            .holder-lien{
+                display: flex;
+                flex: 1;
+                justify-content: center;
+            }
+
+            .dispo{
+                display: flex;
+                align-items: center;
+                border: 1px solid #F9F9F9;
+                border-radius: 50px;
+                gap: 10px;
+                padding: 20px 25px 20px 25px;
+                text-align: center;
+                font-weight: 500;
+                transition: background-color 0.5s ease, color 0.5s ease;
+                color: #F9F9F9;
+    
+                &:hover{
+                    background-color: #F9F9F9;
+                    color: $color-black;
+                }
+            }
+              
+    
+            .bouton-dispo{
+                flex: 1;
+                text-align: right;
+                img{scale: 0.9;}
+            }
+
+        }            
     }
 
     &-green-dot{
@@ -86,6 +108,34 @@
         border-radius: 50%;
     }
 
+}
+@media(max-width : 768px){
+    .holder{
+
+        padding: 48px 0px;
+        &-down{
+            flex-direction: column-reverse;
+            width: 100%;
+            gap: 10px;
+            
+
+            &-left{
+                width: 100%;
+                text-align: center;
+                
+            }
+
+            &-right{
+                box-sizing: border-box;
+                width: 100%;
+                padding: 0 24px;
+                .holder-lien{
+                    justify-content:left;
+                }
+            }
+        }
+    }
+   
 }
 
 @media(max-width : 425px){

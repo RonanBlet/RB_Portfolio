@@ -12,7 +12,7 @@ function Apropos(){
             TypeScript, JavaScript, React, or Next.js, I am passionate about 
             crafting scalable, high-performance web applications that deliver 
             exceptional user experiences.'</p>
-            <button type="button" onClick={() => {window.location.href = '/about'}}><FontAwesomeIcon className="bouton-rose-fleche" icon={faArrowRight}/>Découvrez mon parcours</button>
+            <button type="button" onClick={() => {window.location.href = '/RB_Portfolio/about'}}><FontAwesomeIcon className="bouton-rose-fleche" icon={faArrowRight}/>Découvrez mon parcours</button>
             <img src={photoIa} alt="IA" className='imageIa'/>
         </section>
     )

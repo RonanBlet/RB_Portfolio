@@ -9,10 +9,10 @@ function App() {
     <div className='content-wrapper'>
       <div className='content'>
         <BackgroundLines />
-        <Router>
+        <Router basename='/RB_Portfolio'>
           <Routes>
             <Route exact path="/"  element ={<LandingPage />} />
-            <Route exact path="/about" element={<About />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </Router>
       </div>

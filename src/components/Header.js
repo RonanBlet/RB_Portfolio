@@ -29,9 +29,9 @@ function Header({version}){
             <div className={`menu-deroulant-quatre ${isOpen ? 'menu-deroulant-active' : ''}`}></div>
             <div className={`menu-deroulant-cinq ${isOpen ? 'menu-deroulant-active' : ''}`}></div>
             <div className={`menu-open ${isOpen ? 'menu-open-active' : ''}`}>
-                <a href='/#projet' className={`${isOpen ? 'a-active' : ''}` } onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>MES PROJETS</span></a>
-                <a href='about' className={`${isOpen ? 'a-active' : ''}`} onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>A PROPOS</span></a>
-                <a href='/#contact' className={`${isOpen ? 'a-active' : ''}`} onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>CONTACT</span></a>
+                <a href='/RB_Portfolio/#projet' className={`${isOpen ? 'a-active' : ''}` } onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>MES PROJETS</span></a>
+                <a href='/RB_Portfolio/about' className={`${isOpen ? 'a-active' : ''}`} onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>A PROPOS</span></a>
+                <a href='/RB_Portfolio/#contact' className={`${isOpen ? 'a-active' : ''}`} onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>CONTACT</span></a>
             </div>
             <ReactSVG 
             src={logo}
@@ -40,7 +40,7 @@ function Header({version}){
             />
             {version && <p>Hey, je suis Ronan Blet</p>}
             {!version && <h1>A Propos</h1>}
-            <div class="menu-icon">
+            <div className="menu-icon">
                 <input className="menu-icon__cheeckbox" type="checkbox" onClick={openMenu}/>
                 <div>
                     <span></span>

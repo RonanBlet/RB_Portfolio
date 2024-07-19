@@ -1,29 +1,20 @@
-import { useState } from "react";
+
+import {useForm, ValidationError} from '@formspree/react';
+import { useState, useEffect } from 'react';
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ContactForm(){
 
-    const [formData, setFormData] = useState({
-        firstName:'',
-        lastName: '',
-        email: '',
-        phone: '',
-        message: '',
-    });
+    const [email,setEmail] = useState(false);
+    const[state, handleSubmit] = useForm("mldrdqap");
 
-    const handleChange = (e) => {
-        const {name, value} = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form data submitted', formData);
-    }
+    useEffect(() => {
+        if(state.succeeded){
+            setEmail(true);
+        }
+    },[state.succeeded]);
+    
 
 
     return(
@@ -36,8 +27,6 @@ function ContactForm(){
                 type="text"
                 id="firstName"
                 name="firstName"
-                value={formData.firstName}
-                onChange={handleChange}
                 required
                 />
             </div>
@@ -48,8 +37,6 @@ function ContactForm(){
                 type="text"
                 id="lastName"
                 name="lastName"
-                value={formData.lastName}
-                onChange={handleChange}
                 required
                 />
             </div>
@@ -60,9 +47,12 @@ function ContactForm(){
                 type="email"
                 id="email"
                 name="email"
-                value={formData.email}
-                onChange={handleChange}
                 required
+                />
+                <ValidationError 
+                prefix="Email" 
+                field="email"
+                errors={state.errors}
                 />
             </div>
             <div className="form-group">
@@ -72,8 +62,6 @@ function ContactForm(){
                 type="tel"
                 id="phone"
                 name="phone"
-                value={formData.phone}
-                onChange={handleChange}
                 required
                 />
             </div>
@@ -83,13 +71,17 @@ function ContactForm(){
                 placeholder="Votre demande"
                 id="message"
                 name="message"
-                value={formData.message}
-                onChange={handleChange}
                 required
+                />
+                <ValidationError 
+                prefix="Message" 
+                field="message"
+                errors={state.errors}
                 />
             </div>
         </div>
-        <button type="submit" className="bouton-rose"><FontAwesomeIcon className="bouton-rose-fleche" icon={faArrowRight}/>J'envoie ma requête</button>
+        {email && <p className='form-confirmation'>Votre e-mail a bien été envoyé !</p>}
+        <button type="submit" disabled={state.submitting} className="bouton-rose"><FontAwesomeIcon className="bouton-rose-fleche" icon={faArrowRight}/>J'envoie ma requête</button>
     </form>
     )
 };

@@ -1,27 +1,29 @@
 import next from '../images/next.svg'
+import video from '../images/video.mp4'
 
 function Holder(){
-    const videoId = '_2aESGhGCmc';
 
     return(
         <div className="holder">
+            <video src={video} autoPlay loop muted/>
             <div className='holder-up'>
-                <iframe className="holder-up-iframe" 
-                    src={`https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&playlist=${videoId}&controls=0&showinfo=0&modestbranding=1&fs=0&rel=0&iv_load_policy=3&mute=1`}
-                    allow='autoplay; encrypted-media'
-                    allowFullScreen
-                    title='3D video'
-                />
             </div>
             <div className="holder-down">
-                <p>Freelance Développeur Fullstack<br></br>
-                Basé sur Dijon</p>
-                <div className="dispo"><span className='holder-green-dot'></span>Disponible</div>
-                <span className="bouton-dispo">
-                    <a href='#service'>
-                        <img src={next} alt='fleche'/>
-                    </a>
+                <span className='holder-down-left'>
+                    <p>Freelance Développeur Fullstack<br></br>
+                    Basé sur Dijon</p>
                 </span>
+                <span className='holder-down-right'>
+                    <span className='holder-lien'>
+                        <a className="dispo" href='#contact'><span className='holder-green-dot'></span>Disponible</a>
+                    </span>
+                    <span className="bouton-dispo">
+                        <a href='#service'>
+                            <img src={next} alt='fleche'/>
+                        </a>
+                    </span>
+                </span>
+                
             </div>
         </div>
     )

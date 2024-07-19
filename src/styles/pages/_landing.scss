@@ -8,9 +8,9 @@
         margin-bottom: 75px;
 
         .fullstack{
-            background: radial-gradient(87.87% 208.03% at 12.05% 47%, #EE4D97 0%, #FFCCE3 100%);
-            -webkit-background-clip: text;
             
+            
+              
             font-weight: bold;
             
 
@@ -33,7 +33,6 @@
     
 
     h1,h2{
-        font-family: $font-poppins;
         font-size: 45px;
         font-weight: 500;
         margin: 0;
@@ -46,11 +45,22 @@
     
 }
 
+
 @media(max-width : 768px){
     .landing{
         h1{
             margin: 35px 0 0 0;
             font-size: 40px;
+
+            .fullstack{
+                display: block;
+            }
+        }
+
+        #service{
+            h2{
+                text-align: center;
+            }
         }
     }
 }

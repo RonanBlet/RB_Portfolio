@@ -1,3 +1,4 @@
+@import '../../variables';
 //////////////////////////////CONTACT//////////////////////////////
 
 .contact{
@@ -37,15 +38,24 @@
         padding-bottom: 15px;
     }
 
+    p{
+        margin-top: 25px;
+        opacity: 0;
+    }
+
+    .form-confirmation{
+        opacity: 1;
+    }
+
     label{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 500;
         margin-bottom: 4px;
     }
 
     input{
         border: none;
-       
+       font-size: 16px;
     }
 
     .full-width{
@@ -53,9 +63,11 @@
     }
 
     .bouton-rose{
-        margin-top: 78px;
+        margin-top: 63px;
         color: #F9F9F9;
         font-weight: 500;
+        font-size: 16px;
+        font-family: $font-inter;
         padding: 25px 50px;
         border-radius: 40px;
         border: none;
@@ -94,7 +106,7 @@
 //////////////////////////////CONTACT INFO//////////////////////////////
 
 .contact-info{
-    background-color: #020622;
+    background-color: $color-black;
     border-radius: 10px;
     box-sizing: border-box;
     padding: 64px;

@@ -1,9 +1,9 @@
 import React, { useState} from 'react';
 import Project from './Project';
 import ProjectDetail from './ProjectDetail';
-import imgGrimoire from '../images/bookie_portfolio.PNG';
-import imgKasa from '../images/kasa_portfolio.PNG';
-import imgNotion from '../images/notionFront.PNG';
+import imgGrimoire from '../../images/bookie_portfolio.PNG';
+import imgKasa from '../../images/kasa_portfolio.PNG';
+import imgNotion from '../../images/notionFront.PNG';
 
 function ProjetSection(){
 
