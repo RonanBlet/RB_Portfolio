@@ -25,7 +25,7 @@ function Question(){
                     </p>
                 </Collapsible>
                 <Collapsible className="collapse-pair collapse-bas"
-                title="Quel prix pour vos prestations ?"
+                title="Quel prix pour mes prestations ?"
                 >
                     <p>
                     Je m'engage à fournir un prix en adéquation avec mon expérience, la charge de travail et votre budget.

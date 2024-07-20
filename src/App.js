@@ -3,6 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import BackgroundLines from './components/BackgroundLines';
 import About from './pages/About';
 import './styles/main.scss';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </Router>
+        <Footer />
       </div>
     </div>
   );

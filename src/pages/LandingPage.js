@@ -24,7 +24,7 @@ function LandingPage(){
                     <div className='services-left'>
                     <Service 
                     backgroundColor='1'
-                    text='vitrine, corporate, événementiel, e-commerce, ou applications mobiles, avec ou sans backend intégré.' 
+                    text='vitrine, corporate, événementiel, e-commerce, applications mobiles, avec ou sans backend intégré.' 
                     img={ico_web}
                     titre='Création de site'
                     />
