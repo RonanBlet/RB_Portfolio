@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Collapsible({title, text, className}){
+function Collapsible({title, children, className}){
     
     const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +18,7 @@ function Collapsible({title, text, className}){
             </div>
             <div className={`collapse-content ${isOpen ? 'open' : ''} ${className}` }>
                 <div className="collapse-text">
-                    {text}
+                    {children}
                 </div>
             </div>
         </div>

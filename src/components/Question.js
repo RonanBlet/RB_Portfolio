@@ -6,21 +6,31 @@ function Question(){
             <h3>Vos questions</h3>
             <div>
                 <Collapsible className="collapse-impair collapse-haut"
-                title="Quelle est le salaire d'un developpeur fullstack ?"
-                text="Lorem ipsum dolor sit amet consectetur. Imperdiet aliquam lacus nulla nisi nullam non. Neque malesuada amet tellus dui ut feugiat libero gravida habitant. Eget amet dignissim mi lorem lorem senectus vel ridiculus. Est urna elementum at adipiscing interdum nec ultricies gravida. Id vitae urna vitae tortor. Morbi enim id vitae turpis. Metus dolor pellentesque risus sagittis. Quis odio scelerisque ac arcu sit dictumst massa sed."
-                />
+                title="Combien de temps pour obtenir une réponse ?"
+                >
+                    <span>Je m'engage à vous répondre dans les 48h.</span>
+                </Collapsible>
                 <Collapsible className="collapse-pair"
-                title="Quelle est le salaire d'un developpeur fullstack ?"
-                text="Lorem ipsum dolor sit amet consectetur. Imperdiet aliquam lacus nulla nisi nullam non. Neque malesuada amet tellus dui ut feugiat libero gravida habitant. Eget amet dignissim mi lorem lorem senectus vel ridiculus. Est urna elementum at adipiscing interdum nec ultricies gravida. Id vitae urna vitae tortor. Morbi enim id vitae turpis. Metus dolor pellentesque risus sagittis. Quis odio scelerisque ac arcu sit dictumst massa sed."
-                />
+                title="Je ne possède pas exactement les bonnes compétences ?"
+                >
+                    <p>
+                    Je serai ravi de m'adapter et de travailler pour vous fournir un travail de qualité professionnelle.
+                    </p>
+                </Collapsible>
                 <Collapsible className="collapse-impair"
-                title="Quelle est le salaire d'un developpeur fullstack ?"
-                text="Lorem ipsum dolor sit amet consectetur. Imperdiet aliquam lacus nulla nisi nullam non. Neque malesuada amet tellus dui ut feugiat libero gravida habitant. Eget amet dignissim mi lorem lorem senectus vel ridiculus. Est urna elementum at adipiscing interdum nec ultricies gravida. Id vitae urna vitae tortor. Morbi enim id vitae turpis. Metus dolor pellentesque risus sagittis. Quis odio scelerisque ac arcu sit dictumst massa sed."
-                />
+                title="Vous souhaitez me voir en présentiel ?"
+                >
+                    <p>
+                    Contactez-moi ! Je suis basé à Dijon mais je suis disponible pour me déplacer et discuter de votre projet.
+                    </p>
+                </Collapsible>
                 <Collapsible className="collapse-pair collapse-bas"
-                title="Quelle est le salaire d'un developpeur fullstack ?"
-                text="Lorem ipsum dolor sit amet consectetur. Imperdiet aliquam lacus nulla nisi nullam non. Neque malesuada amet tellus dui ut feugiat libero gravida habitant. Eget amet dignissim mi lorem lorem senectus vel ridiculus. Est urna elementum at adipiscing interdum nec ultricies gravida. Id vitae urna vitae tortor. Morbi enim id vitae turpis. Metus dolor pellentesque risus sagittis. Quis odio scelerisque ac arcu sit dictumst massa sed."
-                />
+                title="Quel prix pour vos prestations ?"
+                >
+                    <p>
+                    Je m'engage à fournir un prix en adéquation avec mon expérience, la charge de travail et votre budget.
+                    </p>
+                </Collapsible>
 
             </div>
         </section>

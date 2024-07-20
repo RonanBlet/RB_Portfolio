@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 
 const AnimatedText = () => {
-    const words = ['fullstack', 'Frontend', 'Backend'];
+    const words = ['Fullstack', 'Frontend', 'Backend'];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [isOnScreen, setIsOnScreen] = useState(false);
 

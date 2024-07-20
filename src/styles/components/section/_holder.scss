@@ -142,5 +142,19 @@
     .holder{
         border-radius: 0;
         margin-bottom: 64px;
+
+        &-down{
+            &-right{
+                
+                .bouton-dispo{
+                    display: none;
+                }
+
+                .holder-lien{
+                    justify-content: center;
+                }
+            }
+        }
+
     }
 }

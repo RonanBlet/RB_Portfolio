@@ -32,8 +32,8 @@ function Header({version}){
                 <a href='/RB_Portfolio/#projet' className={`${isOpen ? 'a-active' : ''}` } onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>MES PROJETS</span></a>
                 <a href='/RB_Portfolio/about' className={`${isOpen ? 'a-active' : ''}`} onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>A PROPOS</span></a>
                 <a href='/RB_Portfolio/#contact' className={`${isOpen ? 'a-active' : ''}`} onClick={openMenu}><span className='menu-open-slash'>/</span><span className='menu-open-text'>CONTACT</span></a>
-            </div>
-            <ReactSVG 
+            </div> 
+            <ReactSVG onClick={() => {window.location.href = '/RB_Portfolio/'}}
             src={logo}
             className='svg-icon'
             style={{color : logoColor}}

@@ -24,23 +24,23 @@ function LandingPage(){
                     <div className='services-left'>
                     <Service 
                     backgroundColor='1'
-                    text='Site vitrine, corporate, évènementiel, e-commerce, intranet, application mobile' 
+                    text='vitrine, corporate, événementiel, e-commerce, ou applications mobiles, avec ou sans backend intégré.' 
                     img={ico_web}
-                    titre='Gestion de projets web'
+                    titre='Création de site'
                     />
                     <Service 
                     backgroundColor='2'
-                    text='Des intégrations (X)HTML / CSS respectueuse des standars du Web.' 
+                    text="changement d'hébergeur, mise à jour des langages, transition entre CMS, et optimisation de la configuration technique." 
                     img={ico_int} 
-                    titre='Intégration Web'
+                    titre='Migration'
                     />
                     </div>
                     <div className='services-right'>
                     <Service 
                     backgroundColor='3'
-                    text='Compatible tous supports, tablette & application mobile.' 
+                    text="ajout de fonctionnalités backend, intégration de bases de données, et adaptation au responsive design." 
                     img={ico_resp}
-                    titre='Responsive design'
+                    titre='Amélioration'
                     />
                     </div>
                 </div>
