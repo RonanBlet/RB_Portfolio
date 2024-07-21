@@ -4,7 +4,7 @@ import ProjectDetail from './ProjectDetail';
 import imgGrimoire from '../../images/bookie_portfolio.PNG';
 import imgKasa from '../../images/kasa_portfolio.PNG';
 import imgNotion from '../../images/notionFront.PNG';
-import imgNotion_2 from '../../images/notionFront2.PNG'
+import imgNotion_2 from '../../images/notionFront.PNG'
 import imgNotionveille from '../../images/notion2.PNG'
 import imgGrimoire_haut from '../../images/bookie1.PNG';
 import imgGrimoire_bas from '../../images/bookie2.PNG';
@@ -88,15 +88,8 @@ function ProjetSection(){
                     API RESTful pour la gestion des utilisateurs, des livres, et des notes,
                     ainsi qu'un système d'authentification sécurisé. Les données sont stockées
                     dans une base de données MongoDB."
+                    prob="J'ai sécurisé l'application web pour les connexions des utilisateurs et leurs interactions avec la base de données en utilisant JWT et en mettant en place des stratégies de gestion de tokens pour protéger les données sensibles. J'ai également mis en œuvre des contrôles rigoureux pour l'authentification et l'autorisation des utilisateurs. Pour garder une application optimisée malgré les nombreuses images stockées et affichées, j'ai utilisé sharp pour modifier et optimiser les images. Cette approche a permis de réduire la taille des fichiers tout en conservant une qualité visuelle élevée, améliorant ainsi les performances globales de l'application. La gestion des erreurs et la validation des données entrantes ont été assurées par l'intégration d'une gestion des erreurs robuste avec des messages d'erreur clairs. Le développement a été réalisé en adéquation avec le travail préparé en frontend en suivant rigoureusement les documents fournis en amont et en s'adaptant en cas d'erreur."
                     comp="Développement backend avec Node.js et MongoDB, Sécurisation des applications avec JWT, Optimisation des images avec sharp, Gestion des performances des API et validation des données."
-                    p_1="Garantir une application web sécurisée pour la connexion des utilisateurs et leurs interactions avec la base de données."
-                    p_2="Garder une application optimisée malgré les nombreuses images stockées et affichées."
-                    s_1="Utilisation de JWT pour sécuriser les endpoints, avec des stratégies de gestion de tokens pour protéger les données sensibles. J'ai également mis en œuvre des contrôles rigoureux pour l'authentification et l'autorisation des utilisateurs."
-                    s_2="Utilisation de sharp pour modifier et optimiser les images stockées et affichées sur l'application web. Cette approche a permis de réduire la taille des fichiers tout en conservant une qualité visuelle élevée, améliorant ainsi les performances globales de l'application."
-                    p_3="Gérer les erreurs et valider les données entrantes de manière efficace."
-                    s_3=" Intégration d'une gestion des erreurs robuste avec des messages d'erreur clairs."
-                    p_4="Développement en adéquation avec le travail préparé en Frontend."
-                    s_4="Suivi rigoureux des documents fournis en amont avec le frontend et adaptation en cas d'erreur."
                     />  
 
                     <ProjectDetail 
@@ -110,14 +103,7 @@ function ProjetSection(){
                     imageBas={imgNotionveille}
                     id={2}
                     comp="Veille technologique, Gestion de projet Agile avec le cadre Scrum, Rédaction professionnelle de documents de spécifications techniques, Analyse et choix des hébergeurs en fonction des besoins du projet"
-                    p_1="Choix des technologies adaptées aux besoins du projet et aux tendances actuelles."
-                    s_1="Réalisation d'une veille technologique exhaustive pour identifier les technologies les plus appropriées."
-                    p_3="Organisation et gestion du projet pour une exécution efficace et une livraison dans les délais."
-                    s_3="Découpage du projet en tâches claires et définies selon le cadre Scrum. J'ai créé un backlog de produit et défini des prioritées pour assurer une progression fluide et un respect des échéances."
-                    p_2=" Choix des hébergeurs pour le front, le back-end, et la base de données"
-                    s_2="Étude des hébergeurs disponibles, évaluation de leurs offres et de leur scalabilité en fonction des technologies choisies. J'ai comparé les performances, les coûts et les capacités d'expansion des différents hébergeurs pour garantir une infrastructure robuste et évolutive."
-                    p_4="Rédiger un document de spécification technique complet et professionnel"
-                    s_4="Apprentissage des standards professionnels pour la rédaction de documents techniques."
+                    prob="J'ai choisi les technologies adaptées aux besoins du projet et aux tendances actuelles après avoir réalisé une veille technologique exhaustive pour identifier les meilleures options disponibles. La gestion du projet a été optimisée par une organisation claire, découpant le travail en tâches définies selon le cadre Scrum. Pour garantir une exécution efficace et le respect des délais, un backlog de produit a été créé et des priorités ont été définies. Concernant les hébergeurs pour le front, le back-end, et la base de données, une étude approfondie des offres a été effectuée. Cette analyse a permis de comparer les performances, les coûts et les capacités d'expansion pour sélectionner une infrastructure robuste et évolutive. Enfin, un document de spécification technique complet et professionnel a été rédigé en appliquant les standards de rédaction technique pour garantir une documentation claire et précise."
                     description="Menu Maker est un site dédié à la création de menus pour restaurateurs. Mon rôle dans ce projet a consisté à préparer le travail en amont, en effectuant une veille technologique approfondie pour choisir les meilleures solutions techniques. J'ai également découpé le projet en tâches spécifiques suivant le cadre de travail Scrum, assurant une gestion agile et efficace du développement."
                     />
 
@@ -139,14 +125,7 @@ function ProjetSection(){
                     assurant une expérience utilisateur optimale sur tous
                     les types d'appareils, et permettant la modification des logements et de leurs informations."
                     comp="Maitrise de React, Routing avec React Router, Stylisation avec Sass, Optimisation et Performance, Responsive Design"
-                    s_1="Utilisation de React Router pour créer des routes dynamiques et implémentation de paramètres de route pour extraire les informations spécifiques à chaque logement."
-                    s_2="Utilisation de Sass pour structurer et modulariser le CSS, avec des media queries pour garantir une mise en page responsive. L'utilisation de variables Sass a également simplifié la gestion des styles globaux."
-                    s_3="Mise en place du state management avec les hooks de React, notamment useState et useEffect, pour gérer les données et les effets de bord de manière optimale."
-                    s_4="Chargement asynchrone des données et utilisation de techniques de code splitting pour améliorer les temps de chargement des pages."
-                    p_1="Assurer une navigation fluide entre la page d'accueil et les pages de description de chaque logement tout en gérant les URL dynamiques."
-                    p_2="Créer une interface utilisateur cohérente et responsive qui s'adapte à diverses tailles d'écran."
-                    p_3="Maintenir et gérer l'état de l'application pour afficher les informations des logements de manière efficace."
-                    p_4="Assurer des temps de chargement rapides et une performance optimale malgré le volume de données des logements."
+                    prob="Afin de garantir une navigation fluide entre la page d'accueil et les pages de description de chaque logement tout en gérant les URL dynamiques, j'ai utilisé React Router pour créer des routes dynamiques et gérer leurs paramètres, permettant ainsi d'extraire les informations spécifiques à chaque logement. L'interface utilisateur a été conçue pour être cohérente et responsive en utilisant Sass, qui a permis de structurer le CSS de manière modulaire avec des media queries, assurant une adaptation optimale aux différentes tailles d'écran. La gestion de l'état de l'application a été optimisée avec les hooks de React, tels que useState et useEffect, facilitant ainsi la gestion des données et des effets de bord pour afficher les informations des logements de manière efficace."
                     id={3}/>                                 
                </div>
                 

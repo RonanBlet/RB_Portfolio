@@ -4,6 +4,7 @@ import BackgroundLines from './components/BackgroundLines';
 import About from './pages/About';
 import './styles/main.scss';
 import Footer from './components/section/Footer';
+import ScrollToAnchor from './components/ScrollToAnchor';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className='content'>
         <BackgroundLines />
         <Router basename='/RB_Portfolio'>
+          <ScrollToAnchor />
           <Routes>
             <Route exact path="/"  element ={<LandingPage />} />
             <Route path="/about" element={<About />} />

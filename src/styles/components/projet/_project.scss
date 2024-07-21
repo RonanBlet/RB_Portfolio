@@ -270,6 +270,7 @@
         }
         p{
             margin: 6px 0;
+            font-size: 20px;
         }
 
         img{
@@ -277,6 +278,10 @@
             border-radius: 10px;
             margin: 18px 0;
 
+        }
+
+        a{
+            color: red;
         }
     }
 
@@ -418,12 +423,27 @@
 
     .project-detail{
         border-radius: 0;
-        padding: 24px 32px;
+        padding: 24px 0px;
 
         &-back{
             top: 23px;
             left: 20px;
+            scale: 0.7;
         }
+
+        &-text{
+            p{
+                margin: 16px 16px;
+                font-size: 16px;
+            }
+            img{
+                border-radius: 0;
+            }
+            &-titre{
+                padding: 16px;
+            }
+        }
+
     }
 }
 

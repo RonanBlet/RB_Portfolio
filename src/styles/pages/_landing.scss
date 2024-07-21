@@ -10,9 +10,7 @@
         .fullstack{
             
             
-          
-                display: block;
-            
+              
             font-weight: bold;
             color: #EE4D97;
             
@@ -47,7 +45,15 @@
 
     
 }
-
+@media (max-width : 1024px){
+    .landing{
+        h1{
+            .fullstack{
+                display: block;
+            }
+        }
+    }
+}
 
 @media(max-width : 768px){
     .landing{
