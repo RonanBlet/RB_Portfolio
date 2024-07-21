@@ -6,8 +6,8 @@ import imgKasa from '../../images/kasa_portfolio.PNG';
 import imgNotion from '../../images/notionFront.PNG';
 import imgNotion_2 from '../../images/notionFront2.PNG'
 import imgNotionveille from '../../images/notion2.PNG'
-import imgGrimoire_bas from '../../images/bookie1.PNG';
-import imgGrimoire_haut from '../../images/bookie2.PNG';
+import imgGrimoire_haut from '../../images/bookie1.PNG';
+import imgGrimoire_bas from '../../images/bookie2.PNG';
 import imgKasa_haut from '../../images/kasa1.PNG';
 import imgKasa_bas1 from '../../images/kasa3.PNG';
 
@@ -74,6 +74,7 @@ function ProjetSection(){
                     lien={true}
                     github="https://github.com/RonanBlet/OC-Projet-6"
                     titre="Mon vieux grimoire" 
+                    color='#DFDFFB'
                     onScreen={selected} 
                     back={back} 
                     version={selectedProject} 
@@ -101,6 +102,7 @@ function ProjetSection(){
                     <ProjectDetail 
                     lien={false}
                     titre="Menu Maker" 
+                    color='#DFF0E8'
                     onScreen={selected} 
                     back={back} 
                     version={selectedProject} 
@@ -123,12 +125,13 @@ function ProjetSection(){
                     lien={true}
                     github="https://github.com/RonanBlet/OC_Projet_5"
                     titre="Kasa" 
+                    color='#EFE8FE'
                     onScreen={selected} 
                     back={back} 
                     version={selectedProject} 
                     imageHaut={imgKasa_haut}
                     imageBas={imgKasa_bas1}
-                    description="J'ai développé Kasa, un site de location immobilière, utilisant React et Sass. Le site
+                    description="J'ai développé le frontend de Kasa, un site de location immobilière, utilisant React et Sass. Le site
                     comprend une page d'accueil répertoriant tous les logements
                     disponibles, une page à propos contenant les informations les plus importantes,
                     ainsi qu'une page de description dédiée pour
