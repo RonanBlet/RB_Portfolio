@@ -3,7 +3,7 @@ import LandingPage from "./pages/LandingPage";
 import BackgroundLines from './components/BackgroundLines';
 import About from './pages/About';
 import './styles/main.scss';
-import Footer from './components/Footer';
+import Footer from './components/section/Footer';
 
 function App() {
   return (

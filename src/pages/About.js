@@ -1,6 +1,6 @@
 import photo from '../images/Gustave.jpg'
 import Collapsible from '../components/Collapsible';
-import Header from '../components/Header';
+import Header from '../components/section/Header';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

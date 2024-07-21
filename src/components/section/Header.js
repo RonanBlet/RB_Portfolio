@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ReactSVG } from 'react-svg'
-import logo from '../images/logo.svg';
+import logo from '../../images/logo.svg';
 
 function Header({version}){
     const[isOpen, setIsOpen] = useState(false);

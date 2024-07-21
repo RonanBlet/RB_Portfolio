@@ -1,4 +1,4 @@
-import photoIa from '../images/iaphoto.svg'
+import photoIa from '../../images/iaphoto.svg'
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

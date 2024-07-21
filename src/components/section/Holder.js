@@ -1,5 +1,5 @@
-import next from '../images/next.svg'
-import video from '../images/video.mp4'
+import next from '../../images/next.svg'
+import video from '../../images/video.mp4'
 
 function Holder(){
 

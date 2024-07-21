@@ -316,10 +316,35 @@
             }
         }
     }
-}
 
+    .project{
 
-@media(max-width : 768px){
+        &-date{
+            margin: 10px 0;
+        }
+
+        &-img-4{
+            display: none;
+            
+        }
+
+        &:hover{
+    
+            .project-img-1{
+                transform: translateY(-60%);
+            }
+    
+            .project-img-2{
+                transform: translateX(20%);
+            }
+    
+            .project-img-3{
+                transform: translateY(-70%);
+            }
+    
+        }
+    }
+
     .project-section{
 
         .project-div{
@@ -336,6 +361,11 @@
             }
         }
     }
+}
+
+
+@media(max-width : 768px){
+    
 
 
     .project{

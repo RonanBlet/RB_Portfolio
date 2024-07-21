@@ -24,10 +24,10 @@ const Service = ({ backgroundColor, img, titre, text }) => {
     }
 
   return (
-    <div className="card" style={serviceColor}>
-      <img src={img} alt='icon' />
-      <h3>{titre}</h3>
-      <p>{text}</p>
+    <div className="card" style={serviceColor} itemScope itemType="https://schema.org/Service">
+      <img src={img} alt='icon du du service' itemProp="image"/>
+      <h3 itemProp="name">{titre}</h3>
+      <p itemProp="description">{text}</p>
     </div>
   );
 };

@@ -1,14 +1,14 @@
-import Holder from '../components/Holder';
+import Holder from '../components/section/Holder';
 import Service from '../components/Service';
-import Apropos from '../components/Apropos';
+import Apropos from '../components/section/Apropos';
 import ContactForm from '../components/contact/ContactForm';
 import ContactInfo from '../components/contact/ContactInfo';
 import AnimatedText from '../components/AnimatedText';
-import Question from '../components/Question';
+import Question from '../components/section/Question';
 import ico_web from '../images/ico_web.svg';
 import ico_int from '../images/ico_int.svg';
 import ico_resp from '../images/ico_resp.svg';
-import Header from '../components/Header';
+import Header from '../components/section/Header';
 import ProjetSection from '../components/project/ProjectSection';
 
 function LandingPage(){

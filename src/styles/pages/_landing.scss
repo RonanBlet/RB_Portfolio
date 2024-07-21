@@ -10,7 +10,9 @@
         .fullstack{
             
             
-              
+          
+                display: block;
+            
             font-weight: bold;
             color: #EE4D97;
             
@@ -53,15 +55,21 @@
             margin: 35px 0 0 0;
             font-size: 40px;
 
-            .fullstack{
-                display: block;
-            }
+            
         }
 
         #service{
             h2{
                 text-align: center;
             }
+        }
+    }
+}
+
+@media(max-width:425px){
+    .landing{
+        h1{
+            font-size: 34px;
         }
     }
 }

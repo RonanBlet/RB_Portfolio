@@ -6,14 +6,14 @@ function ProjectDetail({titre,github,lien,onScreen, back, version, id, imageHaut
     const isOnScreen = (version === id) && onScreen;
 
     return(
-        <div className={`project-detail ${isOnScreen ? 'project-detail-onScreen' : ''}`} >
-            <h3>{titre}</h3>
+        <div className={`project-detail ${isOnScreen ? 'project-detail-onScreen' : ''}`}  itemScope itemType='https://schema.org/CreativeWork'>
+            <h3 itemProp='name'>{titre}</h3>
             <img className='project-detail-back' src={next} alt='fleche' onClick={back}/>
             <div className='project-detail-text'>
                 <img className='project-detail-img' src={imageHaut} alt="capture d'écran du projet"/>
                 <div>
                     <span className='project-detail-text-titre'>Description : </span>
-                    <p>
+                    <p itemProp='description'>
                         {description}
                     </p>
                     <span className='project-detail-text-titre'>Problématique : </span>
@@ -33,7 +33,7 @@ function ProjectDetail({titre,github,lien,onScreen, back, version, id, imageHaut
                     <p><span className='project-detail-text-prob'>Solution : </span>{s_4}</p>
                     <span className='project-detail-text-titre'>Compétences :</span>
                     <p>{comp}</p>
-                    {lien && <a href={github}>Lien vers GitHub</a>}
+                    {lien && <a href={github} itemProp='url'>Lien vers GitHub</a>}
                 </div>
                 <img src={imageBas} alt='capture d écran du projet'/>
                 
