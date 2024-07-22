@@ -1,12 +1,23 @@
-import photo from '../images/Gustave.jpg'
+import photo from '../images/Gustave.webp'
 import Collapsible from '../components/Collapsible';
 import Header from '../components/section/Header';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar as faStarRegular} from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function About(){
+
+    const rating = 
+        <span>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStarRegular}/>
+        </span>
+
     return(
-        <div>
+        <div style={{flex : 1}}>
             <Header version={false}/>
             <div className='about'>
             <div className='about-left'>
@@ -25,19 +36,22 @@ function About(){
 
                     Je suis actuellement à la recherche de nouvelles opportunités pour mettre en pratique mes compétences et contribuer à des projets innovants. N'hésitez pas à me contacter pour discuter de collaborations potentielles !</p>
                 <Collapsible title="Qualification et expertise">
-                    <p className='expertise'>
-                        HTMl : <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/>
-                        <br></br>
-                        CSS : <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/>
-                        <br></br>
-                        Javascript :<FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/>
-                        <br></br>
-                        React :<FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/>
-                        <br></br>
-                        Node :<FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/>
-                        <br></br>
-                        Responsive :<FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/>
-                    </p>
+                    <p>Français : <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></p>
+                    <p>Anglais : <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/>
+            <FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStar}/></p>
+                    <br></br>
+                    <p>HTML : {rating}</p>
+                    <p>CSS : {rating}</p>
+                    <p>JavaScript : {rating}</p>
+                    <p>React : {rating}</p>
+                    <p>Node : {rating}</p>
+                    <p>Responsive : {rating}</p>
+                       
                 </Collapsible>
                 <Collapsible title="Etudes" className='collapse-about'>
                     <p>

@@ -1,6 +1,6 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCalendarDays} from '@fortawesome/free-solid-svg-icons';
-import imgKasa from '../../images/kasa_portfolio2.PNG';
+import imgKasa from '../../images/kasa_portfolio2.webp';
 
 
 function Project({technos, date, titre, text, color, version,imgProjet,onClick}){

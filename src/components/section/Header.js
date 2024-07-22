@@ -41,7 +41,8 @@ function Header({version}){
             {version && <p>Hey, je suis Ronan Blet</p>}
             {!version && <h1>A Propos</h1>}
             <div className="menu-icon">
-                <input className="menu-icon__cheeckbox" type="checkbox" onClick={openMenu}/>
+                <label htmlFor='bouton-burger' style={{display : 'none'}}>Ceci est le bouton pour ouvrir le menu</label>
+                <input className="menu-icon__cheeckbox" type="checkbox" onClick={openMenu} id='bouton-burger'/>
                 <div>
                     <span></span>
                     <span></span>

@@ -1,15 +1,15 @@
 import React, { useState} from 'react';
 import Project from './Project';
 import ProjectDetail from './ProjectDetail';
-import imgGrimoire from '../../images/bookie_portfolio.PNG';
-import imgKasa from '../../images/kasa_portfolio.PNG';
-import imgNotion from '../../images/notionFront.PNG';
-import imgNotion_2 from '../../images/notionFront.PNG'
-import imgNotionveille from '../../images/notion2.PNG'
-import imgGrimoire_haut from '../../images/bookie1.PNG';
-import imgGrimoire_bas from '../../images/bookie2.PNG';
-import imgKasa_haut from '../../images/kasa1.PNG';
-import imgKasa_bas1 from '../../images/kasa3.PNG';
+import imgGrimoire from '../../images/bookie_portfolio.webp';
+import imgKasa from '../../images/kasa_portfolio.webp';
+import imgNotion from '../../images/notionFront.webp';
+import imgNotion_2 from '../../images/notionFront.webp'
+import imgNotionveille from '../../images/notion2.webp'
+import imgGrimoire_haut from '../../images/bookie1.webp';
+import imgGrimoire_bas from '../../images/bookie2.webp';
+import imgKasa_haut from '../../images/kasa1.webp';
+import imgKasa_bas1 from '../../images/kasa3.webp';
 
 
 function ProjetSection(){
